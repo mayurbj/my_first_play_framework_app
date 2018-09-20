@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer:= "Mayur Jain <jain_mayur_2000@outlook.com>"
+packageSummary:= "This will help build a .deb package for my play framework app"
+packageDescription:="Package"
